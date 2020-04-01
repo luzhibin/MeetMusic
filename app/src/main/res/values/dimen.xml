@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--定义整个项目中所用到的所有尺寸-->
+<resources>
+
+    <!--声明项目中顶部导航栏的高度-->
+    <dimen name="navBarHeight">55dp</dimen>
+
+    <!--用marginSize来表示项目中所有的外边距-->
+    <dimen name="marginSize">16dp</dimen>
+
+    <!--定义导航栏标题字体的大小-->
+    <dimen name="navBarTitleSize">25sp</dimen>
+
+    <!--用户名输入框字体大小-->
+    <dimen name="titleSize">18sp</dimen>
+
+    <!--密码输入框字体大小-->
+    <dimen name="infoSize">14sp</dimen>
+
+    <!--登录界面中“用户名 密码”自定义控件的高度-->
+    <dimen name="inputViewHeight">44dp</dimen>
+
+</resources>
