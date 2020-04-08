@@ -5,6 +5,8 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimaryDark">@color/mainColor</item>
         <item name="android:statusBarColor">@color/mainColor</item>
+        <!--全局过渡动画属性-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
     </style>
 
 </resources>

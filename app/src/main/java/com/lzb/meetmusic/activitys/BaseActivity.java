@@ -1,6 +1,7 @@
 package com.lzb.meetmusic.activitys;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -43,5 +44,13 @@ public class BaseActivity extends Activity {
             }
         });
 
+        mIvMe.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                //跳转到个人中心Activity
+                Intent intent = new Intent(BaseActivity.this, MeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--打开Activity的时 新进入的Activity所执行的动画-->
+<!--即从右到左的一个动画-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fromXDelta="100%"
+        android:toXDelta="0%"
+        android:duration="@integer/anim_duration"
+        />
+
+</set>

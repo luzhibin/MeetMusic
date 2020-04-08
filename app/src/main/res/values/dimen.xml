@@ -21,4 +21,12 @@
     <!--登录界面中“用户名 密码”自定义控件的高度-->
     <dimen name="inputViewHeight">44dp</dimen>
 
+    <!--登录按钮的高度-->
+    <dimen name="btnHeight">44dp</dimen>
+
+    <!--按钮弧度-->
+    <dimen name="radius">5dp</dimen>
+
+    <!--activity_me.xml 中item的高度 -->
+    <dimen name="itemHeight">44dp</dimen>
 </resources>

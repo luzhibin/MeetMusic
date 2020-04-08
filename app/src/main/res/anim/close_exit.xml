@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--退出Activity的时 原Activity所执行的动画-->
+<!--即一个从左到右的动画-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <translate
+        android:fromXDelta="0%"
+        android:toXDelta="100%"
+        android:duration="@integer/anim_duration"
+        />
+
+</set>

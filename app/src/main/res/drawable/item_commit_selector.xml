@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--在安卓中，可以使用以下三种方法使View处于高亮效果-->
+    <!--当控件获得焦点的时候控件的表示。-->
+    <item android:state_focused="true" android:drawable="@drawable/commit_item_h"/>
+    <!--当控件按下时控件的表示。-->
+    <item android:state_pressed="true" android:drawable="@drawable/commit_item_h"/>
+    <!--当控件选中时控件的表示。-->
+    <item android:state_selected="true" android:drawable="@drawable/commit_item_h"/>
+
+    <!--View默认效果-->
+    <item android:drawable="@drawable/commit_item_n"/>
+
+</selector>

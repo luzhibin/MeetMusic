@@ -5,7 +5,16 @@
     <color name="colorAccent">#D81B60</color>
     
     <color name="mainColor">#D91B60</color>
+    <color name="mainColor2">#d43433</color>
+    <color name="mainColor3">#FFFFFF</color>
 
     <!--定义分割线的颜色-->
     <color name="LineColor">#c3c3c3</color>
+
+    <!--点击时高亮 显示的颜色-->
+    <color name="mainColorH">#8814C0</color>
+    <color name="mainColorH2">#C80F1F</color>
+
+    <!--个人中心 item 高亮的颜色-->
+    <color name="itemColorH">#DEE1E6</color>
 </resources>

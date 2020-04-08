@@ -5,7 +5,21 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimaryDark">@color/mainColor</item>
+
+        <!--全局过渡动画属性-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
         <!--<item name="android:statusBarColor">@android:color/black</item>-->
+    </style>
+
+    <style name="AnimationActivity" parent="@android:style/Animation.Activity">
+        <!--打开activity时，新进入的Activity执行的动画-->
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter</item>
+        <!--打开Activity时，原Activity执行的动画-->
+        <item name="android:activityOpenExitAnimation">@anim/open_exit</item>
+        <!--退出Activity时，退出的Activity执行的动画-->
+        <item name="android:activityCloseExitAnimation">@anim/close_exit</item>
+        <!--退出Activity时，重新显示的Activity执行的动画-->
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter</item>
     </style>
 
     <!--注册登录页面中输入框 下方分割线的样式-->
@@ -16,4 +30,15 @@
         <item name="android:layout_margin">@dimen/marginSize</item>
     </style>
 
+    <!--登录注册按钮-->
+    <style name="commitBtn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/btnHeight</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:layout_marginLeft">@dimen/marginSize</item>
+        <item name="android:layout_marginRight">@dimen/marginSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_commit_selector</item>
+    </style>
 </resources>

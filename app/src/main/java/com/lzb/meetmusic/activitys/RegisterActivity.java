@@ -1,23 +1,25 @@
 package com.lzb.meetmusic.activitys;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-import com.blankj.utilcode.util.Utils;
 import com.lzb.meetmusic.R;
 
-public class MainActivity extends BaseActivity {
+public class RegisterActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_register);
 
-        //初始化Android util code
-        Utils.init(this);
         initView();
     }
 
+    /**
+     * 初始化View
+     */
     private void initView(){
-        initNavigationBar(false,"邂逅音乐",true);
+        initNavigationBar(true,"注册",false);
     }
 }

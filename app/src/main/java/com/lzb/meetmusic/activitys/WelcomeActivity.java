@@ -34,7 +34,6 @@ public class WelcomeActivity extends BaseActivity {
             @Override
             public void run() {
                 Log.e("WelcomeActivity","当前线程为："+Thread.currentThread());
-                toMain();
                 toLogin();
             }
         },3 * 1000);    //3*1000ms=3秒
