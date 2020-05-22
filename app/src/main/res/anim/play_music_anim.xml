@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator"
+    >
+
+    <!--光盘转动动画
+        fromDegrees：起点坐标    toDegrees：终点坐标  ——>从起点位置0转到终点位置360，即转一圈
+        pivotX & pivotY：转动的中心点
+        duration：动画所执行的时间
+        repeatCount="infinite"  ： 让动画一直执行
+    -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="@integer/play_music_anim_duration"
+        android:repeatCount="infinite"
+        />
+
+</set>

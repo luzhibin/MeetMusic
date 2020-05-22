@@ -9,8 +9,11 @@ import android.widget.Button;
 
 import com.blankj.utilcode.util.Utils;
 import com.lzb.meetmusic.R;
+import com.lzb.meetmusic.utils.SPUtils;
 import com.lzb.meetmusic.utils.UserUtils;
 import com.lzb.meetmusic.views.InputView;
+
+import java.util.Map;
 
 public class LoginActivity extends BaseActivity {
 
@@ -53,9 +56,9 @@ public class LoginActivity extends BaseActivity {
         String password = mInputPassword.getInputStr();
 
         //验证用户输入合法性
-/*        if (!UserUtils.validateLogin(this,phone,password)){
+        if (!UserUtils.validateLogin(this,phone,password)){
             return;
-        }*/
+        }
         //验证通过，通过intent跳转到mainActivity
         Intent intent = new Intent(LoginActivity.this,MainActivity.class);
         startActivity(intent);

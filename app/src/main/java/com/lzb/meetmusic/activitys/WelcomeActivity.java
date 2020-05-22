@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.lzb.meetmusic.R;
+import com.lzb.meetmusic.utils.UserUtils;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -28,6 +29,8 @@ public class WelcomeActivity extends BaseActivity {
 
     /*初始化*/
     private void init(){
+        //验证是否存在已登录用户
+        final boolean isLogin = UserUtils.validateUserLogin(this);
         //Timer类用来在一个后台线程按指定的计划来执行指定的任务，即设置计划任务。
         timer = new Timer();
         timer.schedule(new TimerTask() {
@@ -35,6 +38,11 @@ public class WelcomeActivity extends BaseActivity {
             public void run() {
                 Log.e("WelcomeActivity","当前线程为："+Thread.currentThread());
                 toLogin();
+                if (isLogin){
+                    toLogin();
+                }else{
+                    toLogin();
+                }
             }
         },3 * 1000);    //3*1000ms=3秒
     }

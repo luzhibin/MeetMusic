@@ -17,4 +17,9 @@
 
     <!--个人中心 item 高亮的颜色-->
     <color name="itemColorH">#DEE1E6</color>
+
+    <!--main_Activity “推荐歌单”字体的颜色-->
+    <color name="titleColor">#333333</color>
+
+    <color name="infoColor">#888888</color>
 </resources>

@@ -29,4 +29,25 @@
 
     <!--activity_me.xml 中item的高度 -->
     <dimen name="itemHeight">44dp</dimen>
+
+    <!--main activity“推荐歌单”距离左侧View的距离-->
+    <dimen name="marginTabSize">4dp</dimen>
+
+    <!--专辑margin size-->
+    <dimen name="albumMarginSize">4dp</dimen>
+
+    <!--播放量小图标 的图片大小-->
+    <dimen name="playNumImageSize">18dp</dimen>
+
+    <!--“最热音乐”下列表的图片大小-->
+    <dimen name="itemIconSize">56dp</dimen>
+
+    <!--音乐播放图标的大小-->
+    <dimen name="itemPlaySize">36dp</dimen>
+
+    <!--光盘距离顶部的距离-->
+    <dimen name="discTopSize">90dp</dimen>
+
+    <!--CircleImageView的宽高-->
+    <dimen name="playMusicIconSize">210dp</dimen>
 </resources>

@@ -2,4 +2,11 @@
 <!--动画的执行时间  单位 毫秒-->
 <resources>
     <integer name="anim_duration">300</integer>
+
+    <!--转盘转动的执行时间-->
+    <integer name="play_music_anim_duration">10000</integer>
+    
+    <!--指针动画执行的时间-->
+    <integer name="play_needle_anim_duration">600</integer>
+
 </resources>
